@@ -192,8 +192,8 @@ export default function IndexNavbar() {
               <Button
                 className="nav-link d-none d-lg-block"
                 color="primary"
-                target="_blank"
-                href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
+                // go to auth sign up page
+                href="/authentication/sign-up"
               >
                 <i className="tim-icons icon-spaceship" /> SignUp
               </Button>
@@ -202,7 +202,8 @@ export default function IndexNavbar() {
               <Button
                 className="nav-link d-none d-lg-block"
                 color="default"
-                onClick={scrollToDownload}
+                // go to auth sign in page
+                href="/authentication/sign-in"
               >
                 <i className="tim-icons icon-single-02" /> Login
               </Button>
